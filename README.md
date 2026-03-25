@@ -14,14 +14,14 @@ A structured thinking toolkit distilled from Eric Jorgenson's [*The Book of Elon
 
 | Framework | Use When | File |
 |-----------|----------|------|
-| **First-Principles Thinking** | Making decisions, challenging assumptions, cost analysis | [first-principles.md](references/first-principles.md) |
-| **The Algorithm** | Optimizing slow/broken/bloated processes | [the-algorithm.md](references/the-algorithm.md) |
-| **Mission & Purpose Design** | Finding direction, clarifying why you work | [mission-purpose.md](references/mission-purpose.md) |
-| **Extreme Team Building** | Hiring, team structure, culture, performance | [team-building.md](references/team-building.md) |
-| **Speed & Urgency** | Moving faster, setting timelines, parallelizing work | [speed-urgency.md](references/speed-urgency.md) |
-| **Resilience & Failure** | Overcoming fear, embracing failure, building grit | [resilience-failure.md](references/resilience-failure.md) |
-| **Systems & Manufacturing** | Scaling production, finding bottlenecks, factory thinking | [systems-manufacturing.md](references/systems-manufacturing.md) |
-| **69 Core Methods** | Quick-reference index of all methods | [69-methods.md](references/69-methods.md) |
+| **First-Principles Thinking** | Making decisions, challenging assumptions, cost analysis | [first-principles.md](skills/elon-frameworks/references/first-principles.md) |
+| **The Algorithm** | Optimizing slow/broken/bloated processes | [the-algorithm.md](skills/elon-frameworks/references/the-algorithm.md) |
+| **Mission & Purpose Design** | Finding direction, clarifying why you work | [mission-purpose.md](skills/elon-frameworks/references/mission-purpose.md) |
+| **Extreme Team Building** | Hiring, team structure, culture, performance | [team-building.md](skills/elon-frameworks/references/team-building.md) |
+| **Speed & Urgency** | Moving faster, setting timelines, parallelizing work | [speed-urgency.md](skills/elon-frameworks/references/speed-urgency.md) |
+| **Resilience & Failure** | Overcoming fear, embracing failure, building grit | [resilience-failure.md](skills/elon-frameworks/references/resilience-failure.md) |
+| **Systems & Manufacturing** | Scaling production, finding bottlenecks, factory thinking | [systems-manufacturing.md](skills/elon-frameworks/references/systems-manufacturing.md) |
+| **69 Core Methods** | Quick-reference index of all methods | [69-methods.md](skills/elon-frameworks/references/69-methods.md) |
 
 ## Key Tools
 
@@ -34,20 +34,41 @@ A structured thinking toolkit distilled from Eric Jorgenson's [*The Book of Elon
 
 ### With Any AI Assistant (ChatGPT, Claude, Gemini, etc.)
 
-Copy the content of [SKILL.md](SKILL.md) and the relevant reference file(s) into your conversation as context. For example:
+Copy the content of [SKILL.md](skills/elon-frameworks/SKILL.md) and the relevant reference file(s) into your conversation as context. For example:
 
 > "Here are some thinking frameworks I'd like you to use: [paste SKILL.md]. Now, help me analyze whether I should build an affordable home energy storage product."
 
-### With Claude Code (Superpowers)
+### With Claude Code
 
-Install as a skill:
+**Option A: Install as marketplace plugin (recommended)**
 
-```bash
-# Copy to your skills directory
-cp -r . ~/.claude/skills/elon-frameworks/
+1. Add this repo as a marketplace source in `~/.claude/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "elon-frameworks": {
+      "source": {
+        "source": "github",
+        "repo": "LAVOZDELINFIERNO/elon-frameworks"
+      }
+    }
+  }
+}
 ```
 
-Or download the `.skill` package from [Releases](../../releases).
+2. Install the skill in Claude Code:
+
+```
+/plugin install elon-frameworks@elon-frameworks
+```
+
+**Option B: Manual install**
+
+```bash
+git clone https://github.com/LAVOZDELINFIERNO/elon-frameworks.git
+cp -r elon-frameworks/skills/elon-frameworks ~/.claude/skills/elon-frameworks
+```
 
 ### As a Personal Reference
 

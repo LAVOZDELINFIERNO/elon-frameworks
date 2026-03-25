@@ -1,0 +1,19 @@
+{
+  "name": "elon-frameworks",
+  "owner": {
+    "name": "LAVOZDELINFIERNO"
+  },
+  "metadata": {
+    "description": "Elon Musk's core thinking frameworks as actionable tools"
+  },
+  "plugins": [
+    {
+      "name": "elon-frameworks",
+      "description": "Apply first-principles thinking, The Algorithm, mission design, team building, speed & urgency, resilience, and systems thinking to real problems. Distilled from The Book of Elon by Eric Jorgenson.",
+      "source": "./",
+      "skills": [
+        "./skills/elon-frameworks"
+      ]
+    }
+  ]
+}

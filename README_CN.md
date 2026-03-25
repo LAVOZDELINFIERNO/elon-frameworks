@@ -12,14 +12,14 @@
 
 | 框架 | 适用场景 | 文件 |
 |------|---------|------|
-| **第一性原理思维** | 做决策、挑战假设、成本分析 | [first-principles.md](references/first-principles.md) |
-| **The Algorithm（算法）** | 优化缓慢/混乱/臃肿的流程 | [the-algorithm.md](references/the-algorithm.md) |
-| **使命与目标设计** | 寻找方向、明确工作的意义 | [mission-purpose.md](references/mission-purpose.md) |
-| **极致团队建设** | 招聘、团队结构、文化、绩效 | [team-building.md](references/team-building.md) |
-| **速度与紧迫感** | 加快节奏、设定时间线、并行化工作 | [speed-urgency.md](references/speed-urgency.md) |
-| **韧性与失败** | 克服恐惧、拥抱失败、建立抗压力 | [resilience-failure.md](references/resilience-failure.md) |
-| **系统与制造思维** | 规模化生产、寻找瓶颈、工厂思维 | [systems-manufacturing.md](references/systems-manufacturing.md) |
-| **69 条核心方法** | 全部方法的速查索引 | [69-methods.md](references/69-methods.md) |
+| **第一性原理思维** | 做决策、挑战假设、成本分析 | [first-principles.md](skills/elon-frameworks/references/first-principles.md) |
+| **The Algorithm（算法）** | 优化缓慢/混乱/臃肿的流程 | [the-algorithm.md](skills/elon-frameworks/references/the-algorithm.md) |
+| **使命与目标设计** | 寻找方向、明确工作的意义 | [mission-purpose.md](skills/elon-frameworks/references/mission-purpose.md) |
+| **极致团队建设** | 招聘、团队结构、文化、绩效 | [team-building.md](skills/elon-frameworks/references/team-building.md) |
+| **速度与紧迫感** | 加快节奏、设定时间线、并行化工作 | [speed-urgency.md](skills/elon-frameworks/references/speed-urgency.md) |
+| **韧性与失败** | 克服恐惧、拥抱失败、建立抗压力 | [resilience-failure.md](skills/elon-frameworks/references/resilience-failure.md) |
+| **系统与制造思维** | 规模化生产、寻找瓶颈、工厂思维 | [systems-manufacturing.md](skills/elon-frameworks/references/systems-manufacturing.md) |
+| **69 条核心方法** | 全部方法的速查索引 | [69-methods.md](skills/elon-frameworks/references/69-methods.md) |
 
 ## 核心工具
 
@@ -32,20 +32,41 @@
 
 ### 配合任何 AI 助手（ChatGPT、Claude、Gemini 等）
 
-将 [SKILL.md](SKILL.md) 和相关参考文件的内容复制到对话中作为上下文。例如：
+将 [SKILL.md](skills/elon-frameworks/SKILL.md) 和相关参考文件的内容复制到对话中作为上下文。例如：
 
 > "这是我希望你使用的思维框架：[粘贴 SKILL.md]。现在，帮我分析我是否应该做一个平价家用储能产品。"
 
-### 配合 Claude Code（Superpowers）
+### 配合 Claude Code
 
-作为 skill 安装：
+**方式一：作为 marketplace 插件安装（推荐）**
 
-```bash
-# 复制到你的 skills 目录
-cp -r . ~/.claude/skills/elon-frameworks/
+1. 在 `~/.claude/settings.json` 中添加 marketplace 源：
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "elon-frameworks": {
+      "source": {
+        "source": "github",
+        "repo": "LAVOZDELINFIERNO/elon-frameworks"
+      }
+    }
+  }
+}
 ```
 
-或从 [Releases](../../releases) 下载 `.skill` 安装包。
+2. 在 Claude Code 中安装：
+
+```
+/plugin install elon-frameworks@elon-frameworks
+```
+
+**方式二：手动安装**
+
+```bash
+git clone https://github.com/LAVOZDELINFIERNO/elon-frameworks.git
+cp -r elon-frameworks/skills/elon-frameworks ~/.claude/skills/elon-frameworks
+```
 
 ### 作为个人参考
 
