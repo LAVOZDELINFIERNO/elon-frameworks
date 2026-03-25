@@ -70,6 +70,22 @@ git clone https://github.com/LAVOZDELINFIERNO/elon-frameworks.git
 cp -r elon-frameworks/skills/elon-frameworks ~/.claude/skills/elon-frameworks
 ```
 
+### With OpenClaw
+
+Install via [ClawHub](https://clawhub.ai):
+
+```bash
+clawhub install elon-frameworks
+```
+
+Or install the CLI first if you don't have it:
+
+```bash
+npm i -g clawhub
+clawhub login
+clawhub install elon-frameworks
+```
+
 ### As a Personal Reference
 
 Just read the markdown files directly. Each framework has:

@@ -68,6 +68,22 @@ git clone https://github.com/LAVOZDELINFIERNO/elon-frameworks.git
 cp -r elon-frameworks/skills/elon-frameworks ~/.claude/skills/elon-frameworks
 ```
 
+### 配合 OpenClaw
+
+通过 [ClawHub](https://clawhub.ai) 安装：
+
+```bash
+clawhub install elon-frameworks
+```
+
+如果尚未安装 CLI：
+
+```bash
+npm i -g clawhub
+clawhub login
+clawhub install elon-frameworks
+```
+
 ### 作为个人参考
 
 直接阅读 Markdown 文件即可。每个框架包含：
