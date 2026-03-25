@@ -36,7 +36,7 @@ A structured thinking toolkit distilled from Eric Jorgenson's [*The Book of Elon
 
 Copy the content of [SKILL.md](SKILL.md) and the relevant reference file(s) into your conversation as context. For example:
 
-> "Here are some thinking frameworks I'd like you to use: [paste SKILL.md]. Now, help me analyze whether I should start a SaaS for lawyers."
+> "Here are some thinking frameworks I'd like you to use: [paste SKILL.md]. Now, help me analyze whether I should build an affordable home energy storage product."
 
 ### With Claude Code (Superpowers)
 

@@ -127,8 +127,8 @@ For every framework application:
 
 ## Quick-Start Examples
 
-**"I'm thinking about starting a SaaS for lawyers"**
--> `first-principles.md` + `mission-purpose.md`: Mission clarity, then decompose
+**"I want to build an affordable home energy storage product"**
+-> `first-principles.md` + `mission-purpose.md`: Calculate the Magic Wand Number for battery costs, then clarify the mission
 
 **"Our CI/CD pipeline takes 45 minutes"**
 -> `the-algorithm.md`: Five steps applied to the pipeline
