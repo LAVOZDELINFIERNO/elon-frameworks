@@ -42,22 +42,13 @@ Copy the content of [SKILL.md](skills/elon-frameworks/SKILL.md) and the relevant
 
 **Option A: Install as marketplace plugin (recommended)**
 
-1. Add this repo as a marketplace source in `~/.claude/settings.json`:
+1. Add the marketplace source in Claude Code:
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "elon-frameworks": {
-      "source": {
-        "source": "github",
-        "repo": "LAVOZDELINFIERNO/elon-frameworks"
-      }
-    }
-  }
-}
+```
+/plugin marketplace add LAVOZDELINFIERNO/elon-frameworks
 ```
 
-2. Install the skill in Claude Code:
+2. Install the skill:
 
 ```
 /plugin install elon-frameworks@elon-frameworks

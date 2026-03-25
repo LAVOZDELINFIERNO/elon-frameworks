@@ -40,22 +40,13 @@
 
 **方式一：作为 marketplace 插件安装（推荐）**
 
-1. 在 `~/.claude/settings.json` 中添加 marketplace 源：
+1. 在 Claude Code 中添加 marketplace 源：
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "elon-frameworks": {
-      "source": {
-        "source": "github",
-        "repo": "LAVOZDELINFIERNO/elon-frameworks"
-      }
-    }
-  }
-}
+```
+/plugin marketplace add LAVOZDELINFIERNO/elon-frameworks
 ```
 
-2. 在 Claude Code 中安装：
+2. 安装技能：
 
 ```
 /plugin install elon-frameworks@elon-frameworks
