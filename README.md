@@ -1,5 +1,7 @@
 # Elon Frameworks
 
+[中文版](README_CN.md)
+
 **Apply Elon Musk's core thinking frameworks to your real problems.**
 
 A structured thinking toolkit distilled from Eric Jorgenson's [*The Book of Elon: A Guide to Purpose and Success*](https://www.thebookofelon.com/) (2026). Not a biography summary — an actionable set of mental models you can use with any AI assistant or on your own.
