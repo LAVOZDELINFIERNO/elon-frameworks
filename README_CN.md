@@ -2,7 +2,7 @@
 
 **将 Elon Musk 的核心思维框架应用到你的真实问题中。**
 
-一套结构化思维工具包，提炼自 Eric Jorgenson 的 [*The Book of Elon: A Guide to Purpose and Success*](https://www.thebookofelon.com/)（2026）。这不是传记摘要，而是一套可操作的心智模型——可以配合任何 AI 助手使用，也可以独立使用。
+一套结构化思维工具包，提炼自 Eric Jorgenson 的 [*The Book of Elon: A Guide to Purpose and Success*](https://www.elonmuskbook.org/)（2026）。这不是传记摘要，而是一套可操作的心智模型——可以配合任何 AI 助手使用，也可以独立使用。
 
 > **声明**：本项目将公开的思维框架提炼为可操作的工具，不复制书中内容。强烈推荐阅读原书以获取完整的故事、引用和上下文。
 
@@ -115,4 +115,4 @@ MIT — 自由使用，广泛分享。
 
 ## 致谢
 
-框架灵感来自 Eric Jorgenson 的 [*The Book of Elon*](https://www.thebookofelon.com/)（Magrathea Publishing, 2026）。推荐购买原书获得完整体验。
+框架灵感来自 Eric Jorgenson 的 [*The Book of Elon*](https://www.elonmuskbook.org/)（Magrathea Publishing, 2026）。推荐购买原书获得完整体验。

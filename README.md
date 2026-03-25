@@ -4,7 +4,7 @@
 
 **Apply Elon Musk's core thinking frameworks to your real problems.**
 
-A structured thinking toolkit distilled from Eric Jorgenson's [*The Book of Elon: A Guide to Purpose and Success*](https://www.thebookofelon.com/) (2026). Not a biography summary — an actionable set of mental models you can use with any AI assistant or on your own.
+A structured thinking toolkit distilled from Eric Jorgenson's [*The Book of Elon: A Guide to Purpose and Success*](https://www.elonmuskbook.org/) (2026). Not a biography summary — an actionable set of mental models you can use with any AI assistant or on your own.
 
 > **Note**: This project distills publicly known frameworks into actionable tools. It does not reproduce content from the book. Read the original for the full depth of stories, quotes, and context.
 
@@ -117,4 +117,4 @@ MIT — use freely, share widely.
 
 ## Credit
 
-Frameworks inspired by [*The Book of Elon*](https://www.thebookofelon.com/) by Eric Jorgenson (Magrathea Publishing, 2026). Buy the book for the full experience.
+Frameworks inspired by [*The Book of Elon*](https://www.elonmuskbook.org/) by Eric Jorgenson (Magrathea Publishing, 2026). Buy the book for the full experience.
