@@ -10,7 +10,24 @@ A structured thinking toolkit distilled from Eric Jorgenson's [*The Book of Elon
 
 ## What's Inside
 
-8 detailed frameworks + a 69-method quick-reference index:
+8 detailed frameworks + a 69-method quick-reference index.
+
+### Framework Selection Flow
+
+```mermaid
+graph TD
+    Q{What's the core problem?}
+    Q -->|Decision / assumptions| FP[First Principles]
+    Q -->|Process is slow/broken| ALG[The Algorithm]
+    Q -->|Lost direction / purpose| MP[Mission & Purpose]
+    Q -->|Team not performing| TB[Team Building]
+    Q -->|Moving too slowly| SU[Speed & Urgency]
+    Q -->|Afraid / stuck / overwhelmed| RF[Resilience & Failure]
+    Q -->|Scaling / production| SM[Systems & Manufacturing]
+    Q -->|Complex / multi-dimensional| MULTI[Combine 2-3 frameworks]
+```
+
+### Frameworks
 
 | Framework | Use When | File |
 |-----------|----------|------|

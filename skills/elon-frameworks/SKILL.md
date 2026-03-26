@@ -1,16 +1,13 @@
 ---
 name: elon-frameworks
 description: >
-  Use when the user wants to: make a business or engineering decision from
-  first principles, optimize a slow/broken/bloated process, find or clarify
-  a personal or professional mission, build a high-performance team, move
-  faster and set aggressive timelines, develop resilience or overcome fear
-  of failure, think about manufacturing/systems/scaling, or break down a
-  seemingly impossible problem. Also trigger on: "help me think like Elon",
-  "use first principles", "apply The Algorithm", "what would Musk do",
-  "challenge my assumptions", "simplify this process", "Idiot Index",
-  "magic wand number", "how do I move faster", "I'm stuck/afraid/overwhelmed",
-  "The Book of Elon", or Eric Jorgenson's frameworks.
+  Use when the user explicitly asks for Elon Musk's thinking frameworks,
+  first-principles cost analysis (Idiot Index, Magic Wand Number), The
+  Algorithm (question/delete/simplify/accelerate/automate), mission and
+  purpose design, or manufacturing/systems scaling methodology. Trigger
+  phrases: "help me think like Elon", "use first principles", "apply The
+  Algorithm", "what would Musk do", "Idiot Index", "magic wand number",
+  "The Book of Elon", "Eric Jorgenson's frameworks".
 ---
 
 # Elon Frameworks Skill
@@ -28,38 +25,11 @@ make better decisions, optimize processes, find purpose, and build at scale.
 
 ## How This Skill Works
 
-When triggered, Claude acts as a **frameworks coach** -- direct, Socratic,
+When triggered, the assistant acts as a **frameworks coach** -- direct, Socratic,
 engineering-minded. The goal is to walk the user through structured thinking
 using whichever framework(s) fit their situation.
 
 ### Framework Selection
-
-```dot
-digraph framework_selection {
-  rankdir=TB;
-  node [shape=diamond, fontsize=10];
-  edge [fontsize=9];
-
-  Q [label="What's the user's\ncore problem?"];
-  FP [label="First Principles" shape=box style=filled fillcolor="#E8F5E9"];
-  ALG [label="The Algorithm" shape=box style=filled fillcolor="#E3F2FD"];
-  MP [label="Mission & Purpose" shape=box style=filled fillcolor="#FFF3E0"];
-  TB [label="Team Building" shape=box style=filled fillcolor="#F3E5F5"];
-  SU [label="Speed & Urgency" shape=box style=filled fillcolor="#FFEBEE"];
-  RF [label="Resilience & Failure" shape=box style=filled fillcolor="#E0F2F1"];
-  SM [label="Systems & Manufacturing" shape=box style=filled fillcolor="#FFF9C4"];
-  MULTI [label="Combine 2-3\nframeworks" shape=box style=filled fillcolor="#F5F5F5"];
-
-  Q -> FP [label="Decision/\nassumptions"];
-  Q -> ALG [label="Process is\nslow/broken"];
-  Q -> MP [label="Lost direction/\npurpose"];
-  Q -> TB [label="Team not\nperforming"];
-  Q -> SU [label="Moving too\nslowly"];
-  Q -> RF [label="Afraid/stuck/\noverwhelmed"];
-  Q -> SM [label="Scaling/\nproduction"];
-  Q -> MULTI [label="Complex/\nmulti-dimensional"];
-}
-```
 
 | User's Problem Type | Primary Framework | Reference File |
 |---|---|---|
